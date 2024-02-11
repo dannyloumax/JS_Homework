@@ -23,3 +23,15 @@ alert(`Ваш возраст составляет ${myAgeInSeconds} секунд
 
 // Task 3 -------------------------------------
 
+let count = 42;
+let userName = '42';
+
+let countStringFirstWay = "" + count;
+let userNameIntFirstWay = +userName;
+
+let countStringSecondWay = count.toString();
+let userNameIntSecondWay = Number(userName);
+
+let countStringThirdWay = String(count);
+let userNameIntThirdWay = parseInt(userName);
+

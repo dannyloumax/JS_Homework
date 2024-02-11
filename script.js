@@ -60,7 +60,9 @@ let phrase3 = Boolean(`Variable: %variable name% have type: %type variable%`);
 
 console.log(phrase1, '\n', phrase2, '\n', phrase3);
 
+// Task 7 -------------------------------------
 
+let userFirstName = prompt('Пожалуйста, введите Ваше имя:', 'Ваше имя');
+let userAge = prompt('Пожалуйста, введите Ваш возраст:', 18)
 
-
-
+console.log(userFirstName, '\n', userAge);

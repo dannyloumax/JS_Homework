@@ -42,5 +42,16 @@ let c = 'белых медведей';
 
 console.log("" + a + b + " " + c);
 
+// Task 5 -------------------------------------
+
+let variable1 = 'доступ';
+let variable2 = 'морпех';
+let variable3 = 'наледь';
+let variable4 = 'попрек';
+let variable5 = 'рубило';
+
+console.log(variable1.length + variable2.length + variable3.length + variable4.length + variable5.length);
+
+
 
 

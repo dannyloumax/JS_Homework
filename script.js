@@ -52,6 +52,15 @@ let variable5 = 'рубило';
 
 console.log(variable1.length + variable2.length + variable3.length + variable4.length + variable5.length);
 
+// Task 6 -------------------------------------
+
+let phrase1 = String(`Variable: %variable name% have type: %type variable%`);
+let phrase2 = Number(`Variable: %variable name% have type: %type variable%`);
+let phrase3 = Boolean(`Variable: %variable name% have type: %type variable%`);
+
+console.log(phrase1, '\n', phrase2, '\n', phrase3);
+
+
 
 
 

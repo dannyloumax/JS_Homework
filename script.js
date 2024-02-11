@@ -5,9 +5,8 @@
 let x = 20;
 let y = 58;
 let z = 42;
-let sum = x + y + z;
 
-console.log(sum);
+console.log(x + y + z);
 
 // Task 2 -------------------------------------
 
@@ -27,11 +26,21 @@ let count = 42;
 let userName = '42';
 
 let countStringFirstWay = "" + count;
-let userNameIntFirstWay = +userName;
+let userNameNumberFirstWay = +userName;
 
 let countStringSecondWay = count.toString();
-let userNameIntSecondWay = Number(userName);
+let userNameNumberSecondWay = Number(userName);
 
 let countStringThirdWay = String(count);
-let userNameIntThirdWay = parseInt(userName);
+let userNameNumberThirdWay = parseInt(userName);
+
+// Task 4 -------------------------------------
+
+let a = 1;
+let b = 2;
+let c = 'белых медведей';
+
+console.log("" + a + b + " " + c);
+
+
 

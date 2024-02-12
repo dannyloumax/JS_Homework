@@ -66,3 +66,24 @@ let userFirstName = prompt('Пожалуйста, введите Ваше имя
 let userAge = prompt('Пожалуйста, введите Ваш возраст:', 18)
 
 console.log(userFirstName, '\n', userAge);
+
+
+// Task 1 (advanced level)---------------------
+
+let A = 4;
+let B = 3;
+
+B = [A, A = B][0];
+
+console.log(A, B);
+
+
+// Task 2 (advanced level)---------------------
+
+let codeword1 = 'обернись';
+let codeword2 = 'неужели';
+let codeword3 = 'огурцы';
+let codeword4 = 'липкие';
+let codeword5 = ',!';
+
+console.log(codeword1[1] + codeword2[1] + codeword3[1] + codeword4[1] + codeword5[1]);

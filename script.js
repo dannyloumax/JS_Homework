@@ -73,12 +73,14 @@ console.log(userAge);
 
 // Task 1 (advanced level)---------------------
 
-let A = 4;
-let B = 3;
+let n = 4;
+let m = 3;
 
-B = [A, A = B][0];
+n = n ^ m;
+m = n ^ m;
+n = n ^ m;
 
-console.log(A, B);
+console.log(n, m);
 
 
 // Task 2 (advanced level)---------------------
@@ -89,6 +91,6 @@ let codeword3 = 'огурцы';
 let codeword4 = 'липкие';
 let codeword5 = ',!';
 
-let chiper = codeword1[1] + codeword2[1] + codeword3[1] + codeword4[1] + codeword5[1];
+let cipher= codeword1[1] + codeword2[1] + codeword3[1] + codeword4[1] + codeword5[1];
 
-console.log(chiper);
+console.log(cipher);

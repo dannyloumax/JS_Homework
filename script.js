@@ -58,14 +58,17 @@ let phrase1 = String(`Variable: %variable name% have type: %type variable%`);
 let phrase2 = Number(`Variable: %variable name% have type: %type variable%`);
 let phrase3 = Boolean(`Variable: %variable name% have type: %type variable%`);
 
-console.log(phrase1, '\n', phrase2, '\n', phrase3);
+console.log(phrase1);
+console.log(phrase2);
+console.log(phrase3);
 
 // Task 7 -------------------------------------
 
 let userFirstName = prompt('Пожалуйста, введите Ваше имя:', 'Ваше имя');
 let userAge = prompt('Пожалуйста, введите Ваш возраст:', 18)
 
-console.log(userFirstName, '\n', userAge);
+console.log(userFirstName);
+console.log(userAge);
 
 
 // Task 1 (advanced level)---------------------

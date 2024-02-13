@@ -89,4 +89,6 @@ let codeword3 = 'огурцы';
 let codeword4 = 'липкие';
 let codeword5 = ',!';
 
-console.log(codeword1[1] + codeword2[1] + codeword3[1] + codeword4[1] + codeword5[1]);
+let chiper = codeword1[1] + codeword2[1] + codeword3[1] + codeword4[1] + codeword5[1];
+
+console.log(chiper);

@@ -54,13 +54,13 @@ console.log(variable1.length + variable2.length + variable3.length + variable4.l
 
 // Task 6 -------------------------------------
 
-let phrase1 = String(`Variable: %variable name% have type: %type variable%`);
-let phrase2 = Number(`Variable: %variable name% have type: %type variable%`);
-let phrase3 = Boolean(`Variable: %variable name% have type: %type variable%`);
+let phrase1 = "Hello";
+let phrase2 = 27;
+let phrase3 = true;
 
-console.log(phrase1);
-console.log(phrase2);
-console.log(phrase3);
+console.log(`Variable: 'phrase1' have type: ${typeof phrase1}`);
+console.log(`Variable: 'phrase2' have type: ${typeof phrase2}`);
+console.log(`Variable: 'phrase3' have type: ${typeof phrase3}`);
 
 // Task 7 -------------------------------------
 

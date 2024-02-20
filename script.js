@@ -14,4 +14,13 @@ console.log(typeof c);
 console.log(typeof d);
 console.log(typeof e);
 
+// Task 2 ----------------------------------
 
+let height = 15;
+let weight = 20;
+
+if (height > weight) {
+    console.log(height);
+} else {
+    console.log(weight);
+}

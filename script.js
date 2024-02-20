@@ -24,3 +24,11 @@ if (height > weight) {
 } else {
     console.log(weight);
 }
+
+// Task 3 ----------------------------------
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 == 0) {
+        console.log(i);
+    }
+}

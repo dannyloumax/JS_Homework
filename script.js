@@ -32,3 +32,25 @@ for (let i = 1; i <= 20; i++) {
         console.log(i);
     }
 }
+
+// Task 4 ----------------------------------
+
+let key = true;
+let documents = true;
+let pen = true;
+let apple = false;
+let orange = true;
+
+// Task 5 ----------------------------------
+
+let number = prompt('Введите число')
+
+if (number % 5 === 0 && number % 3 !== 0) {
+    alert('Fiz');
+} else if (number % 3 === 0 && number % 5 !== 0) {
+    alert('Buz');
+} else if (number % 5 === 0 && number % 3 === 0) {
+    alert('FizBuz');
+} else {
+    alert('Число не делится на 3 или 5!');
+}

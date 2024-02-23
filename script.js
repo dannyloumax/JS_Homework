@@ -40,6 +40,14 @@ let documents = true;
 let pen = true;
 let apple = false;
 let orange = true;
+let shouldGoToWork;
+
+if (key === true && documents === true && pen === true && (apple === true || orange === true)) {
+    shouldGoToWork = true;
+} else {
+    shouldGoToWork = false;
+}
+
 
 // Task 5 ----------------------------------
 

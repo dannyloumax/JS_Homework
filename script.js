@@ -2,29 +2,30 @@
 
 // Task 1 ----------------------------------
 
-function getSum(num) {
+function calcSum(num) {
     let sum = 0;
     for (let i = 0; i <= num; i++) {
         sum += i;
     }
-    console.log(sum);
+    return sum;
 }
 
 let number = prompt('Пожалуйста, введите число: ', 0);
-getSum(number);
+console.log(calcSum(number));
 
 // Task 2 -----------------------------------
 
-function creditRateCalc (cost) {
+function calcCreditRate (cost) {
     let years = 5;
     let interestOnCredit = 0;
 
     for (let i = 0; i < years; i++) {
         interestOnCredit += (cost/100)*17;
     }
-    console.log(interestOnCredit);
+    return interestOnCredit;
 }
 
 let creditSum = prompt('Пожалуйста, введите сумму:', 0);
-creditRateCalc(creditSum);
+console.log(calcCreditRate(creditSum));
+
 

@@ -71,3 +71,13 @@ console.log(getSum(1, 5));
 
 
 // Task 6 ----------------------------------
+
+function fooBoo(bool, foo, boo) {
+    if (bool) {
+        foo();
+    } else {
+        boo();
+    }
+}
+
+console.log(fooBoo(true, () => console.log('foo'), () => console.log('boo')));

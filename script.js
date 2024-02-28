@@ -48,3 +48,26 @@ function getSumNumber(num) {
 
 let numberTask3 = prompt('Введите номер:', 0);
 console.log('Сумма чисел равняется', getSumNumber(numberTask3));
+
+// Task 5 ----------------------------------
+
+function getSum(a, b) {
+    if (a === b) {
+        return a || b;
+    }
+
+    let sum = 0;
+    let startNum = Math.min(a, b);
+    let endNum = Math.max(a, b);
+
+    for (let i = startNum; i <= endNum; i++) {
+    sum += i;
+    }
+
+    return sum;
+}
+
+console.log(getSum(1, 5));
+
+
+// Task 6 ----------------------------------

@@ -50,3 +50,24 @@ const colors = {
     },
 }
 console.log(colors["ru pum pu ru rum"].red, ",", colors["ru pum pu ru rum"].blue);
+
+// Task 5 -------------------------------
+
+let salaries = {
+    andrey: 500,
+    sveta: 413,
+    anton: 987,
+    igor: 664,
+    alexandra: 199
+}
+
+let sum = 0;
+let people = 0;
+
+for (key in salaries) {
+    people += 1;
+    sum += salaries[key];
+}
+
+let avg = sum / people;
+console.log(avg);

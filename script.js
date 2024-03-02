@@ -71,3 +71,22 @@ for (key in salaries) {
 
 let avg = sum / people;
 console.log(avg);
+
+// Task 6 ---------------------------------
+
+const login = prompt('Login:', 'login');
+const password = prompt('Password:');
+
+const user = {
+    userLogin: login,
+    userPass: password
+}
+
+const repeatedLogin = prompt('repeat your login, please');
+const repeatedPassword = prompt('repeat your password, please');
+
+if (repeatedLogin === user.userLogin && repeatedPassword === user.userPass) {
+    alert('Добро пожаловать!')
+} else {
+    alert('Введён неправильный логин или пароль. Попробуйте ещё раз.')
+}

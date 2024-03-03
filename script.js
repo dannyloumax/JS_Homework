@@ -19,3 +19,17 @@
  students.shift();
  students.unshift('Andrey');
  console.log(students);
+
+ // Task 5 -----------------------------------
+
+ const cats = ['Gachito', 'Tom', 'Batman'];
+
+ //The first option
+ for (let i = 0; i < cats.length; i++) {
+   console.log(cats[i]);
+ }
+
+ // The second option
+ for (let item of cats) {
+   console.log(item);
+ }

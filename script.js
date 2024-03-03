@@ -41,3 +41,9 @@
 
  const tenNumbers = evenNumbers.concat(oddNumbers);
  console.log(tenNumbers.indexOf(8));
+
+ // Task 7 ------------------------------------
+
+ const binary = [0, 0, 0, 0];
+ console.log(binary.join('1'));
+

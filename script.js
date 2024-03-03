@@ -10,6 +10,20 @@
  const animals = ['monkey', 'dog', 'cat'];
  console.log(animals[animals.length-1]);
 
+ // Task 3 -----------------------------------
+
+ const numbers = [5, 43, 63, 23, 90];
+
+ // The first option
+ numbers.splice(0);
+ console.log(numbers);
+
+ // The second option
+ numbers.length = 0;
+ console.log(numbers);
+
+
+
  // Task 4 -----------------------------------
 
  const students = ['Polina', 'Dasha', 'Masha'];

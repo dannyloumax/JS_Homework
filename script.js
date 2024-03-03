@@ -30,6 +30,14 @@
  }
 
  // The second option
- for (let item of cats) {
-   console.log(item);
+ for (let cat of cats) {
+   console.log(cat);
  }
+
+ // Task 6 ------------------------------------
+
+ const evenNumbers = [2, 4, 6, 8, 10];
+ const oddNumbers = [1, 3, 5, 7, 9];
+
+ const tenNumbers = evenNumbers.concat(oddNumbers);
+ console.log(tenNumbers.indexOf(8));

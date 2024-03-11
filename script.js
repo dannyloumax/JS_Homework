@@ -32,8 +32,14 @@ console.log(calcCreditRate(creditSum));
 // Task 3 ----------------------------------
 
 function trimString(str, from, to) {
-
+    return str.slice(from, to);
 }
+
+let string = prompt("Введите строку: ");
+let numberCutFrom = prompt(" С какого элемента начинаем? ", 0);
+let numberCutTo = prompt("До какого элемента обрезаем?: ", 0);
+
+console.log(trimString(string, numberCutFrom, numberCutTo));
 
 // Task 4 ----------------------------------
 

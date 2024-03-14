@@ -62,10 +62,9 @@ let salaries = {
 }
 
 let sum = 0;
-let people = 0;
+let people = Object.values(salaries).length;
 
 for (key in salaries) {
-    people += 1;
     sum += salaries[key];
 }
 

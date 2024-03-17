@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="root" id="root">
+        <div class="container">
+            <div class="header" id="header">
+                <button class="header__btn" id="btnDelete">Delete All</button>
+                <input type="text" class="header__input" id="input" placeholder="Enter todo...">
+                <button class="header__btn" id="btnAdd">Add</button>
+            </div>
+            <div class="todolist" id="todoList">
+                <ul class="todolist__items" id="Items"></ul>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
